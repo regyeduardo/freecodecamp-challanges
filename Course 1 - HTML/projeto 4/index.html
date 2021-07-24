@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=575757, initial-scale=1.0">
+    <title>Markdown Documentation</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav id='navbar' class='navbar'>
+            <ul>
+                <li class='nav-link'><a href="#headings">Headings</a></li>
+                <li class='nav-link'><a href="#paragraphs">Paragraphs</a></li>
+                <li class='nav-link'><a href="#emphasizes">Emphasizes</a></li>
+                <li class='nav-link'><a href="#blockquotes">Blockquotes</a></li>
+                <li class='nav-link'><a href="#lists">Lists</a></li>
+            </ul>
+        </nav>
+        <main class='main-doc' id='main-doc'>
+            <h1>Markdown Syntax Guide</h1>
+            <section class="main-section">
+                <header id='headings'>
+                    <h2 class='section-title'>Headings</h2>
+                    <p class='section-description'>
+                        Headings are used to mark the importance of a title.
+                    </p>
+                </header>
+                <p>
+                    <code># Headings Level 1</code>
+                    <code>## Headings Level 2</code>
+                    <code>### Headings Level 3</code>
+                    <code>#### Headings Level 4</code>
+                    <code>##### Headings Level 5</code>
+                </p>
+            </section>
+            <section class="main-section">
+                <header id="paragraphs">
+                    <h2 class="section-title">Paragraphs</h2>
+                    <p class="section-description">
+                        In Markdown doesn't need to mark a tag for create paragraphs.
+                    </p>
+                </header>
+                <p>
+                    <code>This is a paragraph</code>
+                </p>
+                <p>
+                    For line breakings just need to declare a \
+                    <code>Let's create a line break\<br>
+                        Now it's created
+                    </code>
+                </p>
+            </section>
+            <section class="main-section">
+                <header id="emphasizes">
+                    <h2 class='section-title'>Emphasizes</h2>
+                    <p class='section-description'> It's possible to mark a word or a phrase like bold or italic in Markdown.</p>
+                </header>
+                <p>
+                    <br>
+                    Bold:
+                    <code>I'm a **phrase**</code>
+                    Italic:
+                    <code>Do you like a *italic* word?</code>
+                    <code>I'm am too a _italic_ word</code>
+                    Bold and Italic:
+                    <code>I'm ***Batman***</code>
+                </p>
+            </section>
+            <section class="main-section">
+                <header id="blockquotes">
+                    <h2 class="section-title">Blockquotes</h2>
+                    <p class="section-description">It's easy and simple to declare a Blockquote, just use a >.</p>
+                </header>
+                <p>
+                    <code>> I have a dream, one day...</code>
+                    Paragraph Blockquote:
+                    <code>> 1 <br>><br>> 3</code>
+                    Nested Blockquotes:
+                    <code>> 1<br>>> 2.1</code>
+                </p>
+            </section>
+            <section class="main-section">
+                <header id="lists">
+                    <h2 class='section-title'>Lists</h2>
+                    <p class='section-description'>More easy than HTML to declare Lists on Markdown.</p>
+                </header>
+                <p>
+                    <br> Ordered Lists:
+                    <code>
+                        1. Item 1<br>
+                        2. Item 2<br>
+                        3. Item 3<br>
+                        &nbsp; 1. Item 3.1 <br>
+                        &nbsp; 2. Item 3.2 <br>
+                        4. Item 4<br>
+                        5. Item 5
+                    </code>
+                    Unordered Lists:
+                    <code>
+                        - Item ? <br>
+                        - Another Item <br>
+                        &nbsp;- Another Item - Sub Item <br>
+                        - More Item <br>
+                    </code>
+                </p>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

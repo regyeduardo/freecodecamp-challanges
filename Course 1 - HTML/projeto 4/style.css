@@ -1,0 +1,78 @@
+body {
+    background-color: #48435C;
+    max-width: 1024px;
+    color: white;
+    font-style: normal;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #4D4B53;
+}
+
+li {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.section-title {
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.section-description {
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+code {
+    display: block;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    line-height: 24px;
+    color: #CCADB3;
+    margin: 10px 0;
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-doc {
+    width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+    .container {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}
