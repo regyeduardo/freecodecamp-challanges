@@ -42,7 +42,6 @@ a {
 
 .container {
     width: 90%;
-    border: 5px solid red;
     margin: 0 auto;
 }
 
@@ -75,7 +74,20 @@ a {
 
 .project-details {
     display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.project-details img {
+    width: 401px;
+    height: 335px;
+}
+
+.project-details .text-project {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
 }
 
 .project-link {
@@ -88,4 +100,32 @@ a {
     color: #ffffff
 }
 
+.imagens {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.imagens img {
+    width: 100px;
+    height: 100px;
+}
+
+@media  screen and (max-width: 800px) {
+    .project-details {
+        display: block;
+    }
+
+    .project-details .text-project {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .project-details img {
+        display: block;
+        margin: 0 auto;
+    }
+}
 
